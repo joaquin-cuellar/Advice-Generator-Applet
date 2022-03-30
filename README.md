@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](img/screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub/advice-generator-applet-B1IYrU-Qc)
+- Live Site URL: [Add live site URL here](https://joaquin-cuellar.github.io/Advice-Generator-Applet/)
 
 ## My process
 
@@ -48,6 +48,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Joaquin Cuellar](https://www.your-site.com)
+- Website - [Joaquin Cuellar](https://github.com/joaquin-cuellar)
 
 ## Acknowledgments
