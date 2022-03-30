@@ -20,9 +20,9 @@ body{
 main{
     background-color: var(--c-main);
     box-sizing: border-box;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, 50%);
+    #top: 60%;
+    #left: 50%;
+    #transform: translate(-50%, 50%);
     text-align: center;
     padding: 64px;
     padding-top: 32px;
@@ -31,6 +31,8 @@ main{
     border-radius: 25px;
     width: 100%;
     max-width: 800px;
+    margin: auto;
+    margin-top: 256px;
 }
 
 h2{
@@ -85,4 +87,15 @@ a{color: var(--c-action);}
     0% {box-shadow: 0 0 0px var(--c-action);}
     50% {box-shadow: 0 0 16px var(--c-action);}
     100% {box-shadow: 0 0 0px var(--c-action);}
+}
+
+/* MEDIA CONTROLS */
+
+@media (max-height: 850px){
+    main{margin-top: 128px;}
+}
+
+@media (max-height: 650px){
+    main{margin-top: 64px;}
+    footer{font-size: 0.9em;}
 }
