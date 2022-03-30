@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub/advice-generator-applet-B1IYrU-Qc)
-- Live Site URL: [Add live site URL here](https://joaquin-cuellar.github.io/Advice-Generator-Applet/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub/advice-generator-applet-B1IYrU-Qc)
+- Live Site URL: [Advice Generator Applet](https://joaquin-cuellar.github.io/Advice-Generator-Applet/)
 
 ## Built with
 
