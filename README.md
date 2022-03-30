@@ -39,8 +39,10 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - JavaScript
-- SASS
+- CSS
 - [Advice Slip API](https://api.adviceslip.com)
+- ['We Stand with Ukraine' Plugin](https://github.com/virae/we-stand-with-ukraine)
+- [Animate.CSS API](https://animate.style/)
 
 ### What I learned
 

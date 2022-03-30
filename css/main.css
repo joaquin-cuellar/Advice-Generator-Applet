@@ -1,0 +1,88 @@
+/* IMPORTS & VARIABLES */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root{
+    --c-back: hsl(218, 23%, 16%);
+    --c-main: hsl(217, 19%, 24%);
+    --c-action: hsl(150, 100%, 66%);
+    --c-text: hsl(193, 38%, 86%);
+}
+
+/* MAIN STYLESHEET */
+
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--c-back);
+    color: var(--c-text);
+}
+
+main{
+    background-color: var(--c-main);
+    box-sizing: border-box;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    padding: 64px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    position: relative;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 800px;
+}
+
+h2{
+    color: var(--c-action);
+    font-size: 18px;
+    margin-bottom: 32px;
+    user-select: none;
+}
+
+#quote{
+    font-size: 28px;
+    margin-bottom: 48px;
+}
+
+#quote::before, #quote::after{
+    content: "\"";
+}
+
+#reload{
+    position: absolute;
+    left: 50%;
+    bottom: -32px;
+    transform: translate(-50%);
+    background-color: var(--c-action);
+    border-style: none;
+    border-radius: 42199px;
+    height: 64px;
+    width: 64px;
+    cursor: pointer;
+}
+
+#reload:hover{
+    animation-name: glow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+footer{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    text-align: right;
+}
+
+img{user-select: none; pointer-events: none;}
+
+a{color: var(--c-action);}
+
+/* ANIMATION */
+
+@keyframes glow{
+    0% {box-shadow: 0 0 0px var(--c-action);}
+    50% {box-shadow: 0 0 16px var(--c-action);}
+    100% {box-shadow: 0 0 0px var(--c-action);}
+}

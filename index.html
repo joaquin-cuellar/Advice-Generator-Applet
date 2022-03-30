@@ -1,28 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="ltr" lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Advice generator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"><!-- https://animate.style/ -->
+    <title>Advice Generator Applet</title>
+    <meta name="keywords" content="Quotes, Advice">
+    <meta name="description" content="Discover interesting quotes and advice">
+    <meta name="author" content="Joaquin Cuellar">
+    <script src="https://cdn.jsdelivr.net/gh/virae/we-stand-with-ukraine@v1.0.2/badge.js" async></script><!-- Michal Šimonfy @https://github.com/virae/we-stand-with-ukraine -->
 </head>
 <body>
-
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
+    
+    <main>
+        <h2  class="animate__animated animate__headShake">Advice #<span id="number"></span></h2>
+        <h1 id="quote"  class="animate__animated animate__headShake"></h1>
+        
+        <picture>
+            <source media="(min-width:650px)" srcset="img/pattern-divider-desktop.svg">
+            <img src="img/pattern-divider-mobile.svg" alt="">
+        </picture>
+        
+        <button id="reload"><img src="img/icon-dice.svg" alt="Reload" title="Reload" width="32px" height="32px"></button>
+    </main>
+    
+    <script src="js/generate-advice.js"></script>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <footer>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/joaquin-cuellar" target="_blank">Joaquin Cuellar</a>.
+    </footer>
 </body>
 </html>
